@@ -1,0 +1,29 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer-column {
+  text-align: left;
+}
+
+.footer-column h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Responsive styling - adjust as needed */
+@media screen and (max-width: 768px) {
+  .footer-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}

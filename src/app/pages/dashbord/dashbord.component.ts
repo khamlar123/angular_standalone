@@ -9,4 +9,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './dashbord.component.html',
   styleUrl: './dashbord.component.scss',
 })
-export class DashbordComponent {}
+export class DashbordComponent {
+  myArray: number[] = [1, 2, 3, 4, 5];
+  constructor() {}
+}
